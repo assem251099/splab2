@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]){
 		else{
 			int p3 = fork();
 			if(p3==0){
-				execlp("node", "node","node.js",argv[1],argv[2],NULL);
+				execlp("node", "node","multiplication.js",argv[1],argv[2],NULL);
 			}
 			else{
 				int p4 = fork();
